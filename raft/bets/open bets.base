@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "bet"
+    order:
+      - file.name
+      - suit
+      - stake
+      - prediction
+      - madeAt
+      - madeBy

@@ -32,9 +32,9 @@
 ## Technical Debt
 
 - [ ] Schema for crew/character files
-- [ ] How do Bases integrate with this structure?
-- [ ] JSON lines vs SQLite for bet storage
-- [ ] What's the actual token cost tracking mechanism?
+- [x] How do Bases integrate with this structure? → See WORKFLOW.md, property-first design
+- [ ] JSON lines vs SQLite for bet storage → Recommendation: JSONL (see bet-schema.md)
+- [ ] What's the actual token cost tracking mechanism? → Manual for now, agent later
 
 ## Open Questions
 
